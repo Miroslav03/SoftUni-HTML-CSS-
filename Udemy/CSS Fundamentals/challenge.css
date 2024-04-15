@@ -10,6 +10,8 @@ body {
 
 .product {
     border: solid black 7px;
+    width: 825px;
+    margin: 50px auto;
 }
 
 .product-title {
@@ -19,6 +21,20 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 15px 20px;
+    position: relative;
+}
+
+.product-title::after {
+    content: "sale";
+    letter-spacing: 3px;
+    font-size: 13px;
+    border: red solid;
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: -30px;
+    top: -15px;
+    padding: 3px 7px;
 }
 
 .price {
@@ -40,7 +56,7 @@ a:link,
 a:visited {
     color: black;
     font-weight: bold;
-    
+
 }
 
 a:hover,
@@ -53,7 +69,6 @@ h3 {
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 25px;
     margin-bottom: 10px;
 }
 
@@ -78,10 +93,53 @@ li {
     cursor: pointer;
     border-top: solid black 5px;
 }
-.text-description{
+
+.text-description {
     margin-bottom: 6px;
 }
 
 .img {
-    width: 100%;
+    width: 30%;
+}
+
+.black {
+    border: solid black 10px;
+    display: inline-block;
+    margin: 25px 0;
+    
+}
+
+.blue {
+    border: #2f6ee2 solid 10px;
+    display: inline-block;
+    margin: 25px 0;
+    margin-left: 11px;
+}
+
+.red {
+    border: solid red 10px;
+    display: inline-block;
+    margin: 25px 0;
+    margin-left: 11px;
+}
+
+.yellow {
+    border: solid yellow 10px;
+    display: inline-block;
+    margin: 25px 0;
+    margin-left: 11px;
+}
+
+.green {
+    border: solid green 10px;
+    display: inline-block;
+    margin: 25px 0;
+    margin-left: 11px;
+}
+
+.brown {
+    border: solid rgb(63, 15, 15) 10px;
+    display: inline-block;
+    margin: 25px 0;
+    margin-left: 11px;
 }
