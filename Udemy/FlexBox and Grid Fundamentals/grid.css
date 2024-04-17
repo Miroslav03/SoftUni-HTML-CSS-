@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product {
+    border: solid black 8px;
+    width: 875px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr;
+    column-gap: 70px;
+}
+
+.product-title {
+    background-color: lightgrey;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: relative;
+    grid-column: 1/ -1;
+}
+
+.product-title::after {
+    content: 'Sale';
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    padding: 5px 15px;
+    letter-spacing: 2px;
+    top: -16px;
+    left: -30px;
+    position: absolute;
+}
+
+
+.btn {
+    border: none;
+    background-color: black;
+    color: white;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 20px;
+    grid-column: 1 /-1;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.price-shipping {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a:link {
+    color: black;
+}
+
+a:link:hover {
+    color: red;
+}
+
+.shiping {
+    color: rgb(100, 99, 99);
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.price {
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.img {
+    width: 300px;
+}
+
+.color-picker {
+    display: flex;
+    gap: 10px;
+    margin-right: 70px;
+}
+
+.black {
+    border: solid black 10px;
+    margin-top: 15px;
+}
+
+.black {
+    border: solid black 10px;
+    margin-top: 15px;
+}
+
+.blue {
+    border: solid blue 10px;
+    margin-top: 15px;
+}
+
+.red {
+    border: solid red 10px;
+    margin-top: 15px;
+}
+
+.yellow {
+    border: solid yellow 10px;
+    margin-top: 15px;
+}
+
+.green {
+    border: solid green 10px;
+    margin-top: 15px;
+}
+
+.brown {
+    border: solid rgb(45, 6, 6) 10px;
+    margin-top: 15px;
+}
+
+ul {
+    padding-right: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.text-description {
+    padding-bottom: 10px;
+}
+
+.end {
+    align-content: center;
+}
+.middle {
+    align-content: center;
+}
