@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Inter', sans-serif;
+    }
+
+    .pagination {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        gap: 10px;
+    }
+
+
+    .btn-left {
+        border: #087f5b solid 1px;
+        background-color: white;
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .btn-left:hover {
+        background-color: #087f5b;
+    }
+
+    .btn-left:hover .btn-icon {
+        stroke: white;
+    }
+
+    .btn-icon {
+        width: 13px;
+        height: 13px;
+        stroke: #087f5b;
+    }
+
+    .btn-right {
+        border: #087f5b solid 1px;
+        background-color: white;
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .btn-right:hover {
+        background-color: #087f5b;
+    }
+
+    .btn-right:hover .btn-icon {
+        stroke: white;
+    }
+
+    .text-btn{
+        border: none;
+        background-color: white;
+        font-size: 10px;
+        cursor: pointer;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-btn:hover{
+        background-color: #087f5b;
+        color: white;
+    }
+    .dots{
+        color: #adb5bd;
+    }
+</style>
+
+<body>
+    <div class="pagination">
+        <button class="btn-left">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="btn-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+            </svg>
+        </button>
+        <button class="text-btn">1</button>
+        <button class="text-btn">2</button>
+        <button class="text-btn">3</button>
+        <button class="text-btn">4</button>
+        <button class="text-btn">5</button>
+        <button class="text-btn">6</button>
+        <button class="text-btn dots">...</button>
+        <button class="text-btn">23</button>
+        <button class="btn-right">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="btn-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+        </button>
+    </div>
+</body>
+
+</html>
