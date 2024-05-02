@@ -21,34 +21,96 @@
         font-family: 'Rubik', sans-serif;
     }
 
-    .btn:visited,
-    .btn:link {
-        color: white;
-        background-color: orangered;
+    .container {
+        margin: 0 auto;
+        width: 1200px;
+    }
+
+    .header-container {
+        width: 1200px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+    }
+
+    .inner-div {
+        width: 50%;
+    }
+ 
+    nav {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        padding-top: 32px;
+    }
+
+    h1 {
+        font-size: 52px;
+        margin-bottom: 32px;
+        line-height: 1.05;
+        color: #fff;
+    }
+
+    header {
+        height: 100vh;
+        position: relative;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(hero.jpg);
+        background-size: cover;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 48px;
+    }
+
+    .btn:link,
+    .btn:visited {
+        color: #fff;
+        background-color: #e67e22;
         text-decoration: none;
         padding: 16px 32px;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 600;
-        border-radius: 15px;
+        border-radius: 9px;
         display: inline-block;
+    }
+
+    h2 {
+        font-size: 44px;
+        margin-bottom: 48px;
+    }
+
+    section {
+        padding: 96px 0;
+    }
+    .inner-div p {
+        color: #fff;
     }
 </style>
 
 <body>
     <header>
-        <nav>
+        <nav class="container">
             <div>LOGO</div>
             <div>NAVIGATION</div>
         </nav>
-        <div>
-            <h1> A healthy meal delivred to your door,every single day</h1>
-            <p>The smart 365-days-per-year food subscribtion that will make you eat healthy again.Tailored to your
-                personal tastes and nutritional needs. </p>
+
+        <div class="header-container">
+            <div class="inner-div">
+                <h1> A healthy meal delivred to your door,every single day</h1>
+                <p>The smart 365-days-per-year food subscribtion that will make you eat healthy again.Tailored to your
+                    personal tastes and nutritional needs. </p>
+                <a href="#" class="btn">Start eating well</a>
+            </div>
         </div>
-        <a href="#" class="btn">Start eating well</a>
     </header>
     <section>
-        <div>
+        <div class="container">
             <h2>Some random heading</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat in tempora odit aperiam ducimus esse.
                 Enim beatae esse perferendis iste blanditiis quasi deserunt totam atque vitae, quo at odit reiciendis.
