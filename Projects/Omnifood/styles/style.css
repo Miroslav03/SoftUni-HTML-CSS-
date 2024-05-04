@@ -220,13 +220,19 @@
     padding: 9.6rem 0;
 }
 
-.meal{
+.meal {
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.074);
     border-radius: 11px;
     overflow: hidden;
+    transition: all 0.4s;
 }
 
-.meal-information{
+.meal:hover {
+    transform: translateY(-1.2rem);
+
+}
+
+.meal-information {
     padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
 
@@ -234,7 +240,7 @@
     width: 100%;
 }
 
-.meal-tags{
+.meal-tags {
     margin-bottom: 1.2rem;
     display: flex;
     gap: 1rem;
@@ -275,4 +281,40 @@
     display: flex;
     align-items: center;
     gap: 1.2rem;
+}
+
+.diets {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.diet {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.all-recipes {
+    text-align: center;
+}
+
+.meal-link:link,
+.meal-link:visited {
+    display: inline-block;
+    color: #e67e22;
+    text-decoration: none;
+    font-size: 1.6rem;
+    border-bottom: #e67e22 solid 1px;
+    padding-bottom: 2px;
+
+    transition: all 0.3s;
+}
+
+.meal-link:hover,
+.meal-linkL:active {
+    color: #cf711f;
+
 }
