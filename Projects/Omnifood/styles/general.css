@@ -172,5 +172,17 @@ html {
 }
 
 .grid--column--3 {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+strong{
+    font-weight: 500;
+}
+
+.vegan-color{
+    background-color: #22b8cf;
+}
+
+.paleo-color{
+    background-color: #fcc419;
 }

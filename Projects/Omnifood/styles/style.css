@@ -121,6 +121,36 @@
     font-weight: 600;
 }
 
+
+/**************************/
+/*LOGOS*/
+/**************************/
+
+.section-logos {
+    padding: 4.80rem 0;
+}
+
+.heading-featured-in {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2.4rem;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 3.2rem;
+    filter: brightness(0);
+    opacity: 40%;
+}
+
+
 /**************************/
 /*HOW IT WORKS*/
 /**************************/
@@ -180,4 +210,69 @@
 
 .step-image {
     width: 35%;
+}
+
+/**************************/
+/*MEALS SECTION*/
+/**************************/
+
+.section-meals {
+    padding: 9.6rem 0;
+}
+
+.meal{
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.074);
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+.meal-information{
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.meal-img {
+    width: 100%;
+}
+
+.meal-tags{
+    margin-bottom: 1.2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: #51cf66;
+    color: #333;
+    border-radius: 100px;
+    font-weight: 600;
+}
+
+.meal-title {
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+}
+
+.meal-attributes {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.meal-icon {
+    color: #cf711f;
+}
+
+.meal-attribute {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
 }
