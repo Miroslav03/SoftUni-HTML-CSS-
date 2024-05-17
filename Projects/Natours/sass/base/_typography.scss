@@ -1,0 +1,57 @@
+.heading-primary {
+    color: $color-white;
+    text-transform: uppercase;
+
+    backface-visibility: hidden;
+
+    &--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+        animation: moveInLeft 1s ease-in;
+    }
+
+    &--sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.74rem;
+        animation: moveInRight 1s ease-in;
+        margin-bottom: 6rem;
+
+    }
+}
+
+.heading-secondary {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    background-image: linear-gradient(to right, $main-color, $main-color-darker);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.2s;
+    letter-spacing: 2px;
+
+
+    &:hover {
+        transform: skewY(2deg) skewX(20deg) scale(1.1);
+        text-shadow: .5rem 2rem 2rem rgba($color-black, 0.675);
+    }
+}
+
+.heading-tertiary{
+    font-size: $default-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.paragraph{
+    font-size: $default-font-size;
+    
+    &:not(:last-child){
+        margin-bottom: 3rem;
+    }
+}
