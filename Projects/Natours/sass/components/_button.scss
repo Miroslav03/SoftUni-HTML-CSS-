@@ -37,6 +37,16 @@
         }
     }
 
+    &--green {
+        background-color: $main-color;
+        color: $color-white;
+        box-shadow: 0 1rem 2rem rgba($color: $color-black, $alpha: 0.1);
+
+        &::after {
+            background-color: $main-color;
+        }
+    }
+
     &::after {
         content: "";
         display: inline-block;
