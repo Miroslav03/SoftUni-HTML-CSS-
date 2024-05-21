@@ -1,0 +1,15 @@
+{
+  "name": "components",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass loignAthleans/style.scss loignAthleans/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #eceef3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; }
+
+.login-form {
+  background-color: white;
+  padding: 5rem 6rem 9rem 6rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 5px solid #475f93;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15); }
+  .login-form__heading-box {
+    text-align: center;
+    margin-bottom: 2.5rem; }
+    .login-form__heading-box-text {
+      color: #475f93;
+      font-size: 3.2rem;
+      margin-bottom: -6px; }
+    .login-form__heading-box-border {
+      display: inline-block;
+      border-bottom: #475f93 3px solid;
+      width: 3rem; }
+  .login-form__elements__inputs {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column; }
+    .login-form__elements__inputs__input-heading {
+      color: #475f93;
+      font-weight: 650;
+      margin-bottom: 2px; }
+    .login-form__elements__inputs__input-input {
+      background-color: #eceef3;
+      border-bottom: #475f93 3px solid;
+      border-top: transparent;
+      border-left: transparent;
+      border-right: transparent;
+      box-sizing: border-box;
+      height: 2.5rem;
+      font-size: 8px;
+      padding: 0 6rem 0 4px;
+      width: 100%;
+      display: block;
+      align-items: start;
+      color: #475f93; }
+  .login-form__elements__checkbox-field {
+    margin-top: 5px;
+    margin-bottom: 9px;
+    display: flex;
+    align-items: center;
+    gap: .5rem; }
+    .login-form__elements__checkbox-field-box {
+      border: solid 2px #475f93;
+      width: 9px;
+      height: 9px; }
+  .login-form__elements__buttons-button {
+    display: inline-block;
+    width: 100%;
+    background-color: #475f93;
+    color: #eceef3;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    padding: 6px;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    font-weight: 600;
+    transition: all 0.4s; }
+    .login-form__elements__buttons-button:hover {
+      cursor: pointer;
+      color: #475f93;
+      background-color: #eceef3;
+      transform: scale(1.1); }
+  .login-form__links {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    text-align: center; }
+    .login-form__links-text {
+      transition: all .4s; }
+      .login-form__links-text:link, .login-form__links-text:visited {
+        color: #475f93;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 8px; }
+      .login-form__links-text:hover {
+        transform: scale(1.04); }
+      .login-form__links-text:active {
+        transform: translate(0); }
