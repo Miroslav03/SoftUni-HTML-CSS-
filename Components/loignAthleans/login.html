@@ -9,40 +9,44 @@
 </head>
 
 <body>
-    <form class="login-form" action="">
-        <div class="login-form__heading-box">
-            <h1 class="login-form__heading-box-text">Log in</h1>
-            <div class="login-form__heading-box-border"></div>
-        </div>
+    <div class="login-container">
+        <form class="login-form" action="">
+            <div class="login-form__heading-box">
+                <h1 class="login-form__heading-box-text">Log in</h1>
+                <div class="login-form__heading-box-border"></div>
+            </div>
 
-        <div class="login-form__elements">
+            <div class="login-form__elements">
 
-            <div class="login-form__elements__inputs">
-                <div class="login-form__elements__inputs__input">
-                    <p class="login-form__elements__inputs__input-heading">Email</p>
-                    <input class="login-form__elements__inputs__input-input" placeholder="Email" name="email" type="text">
+                <div class="login-form__elements__inputs">
+                    <div class="login-form__elements__inputs__input">
+                        <p class="login-form__elements__inputs__input-heading">Email</p>
+                        <input class="login-form__elements__inputs__input-input" placeholder="Email" name="email"
+                            type="text">
+                    </div>
+                    <div class="login-form__elements__inputs__input">
+                        <p class="login-form__elements__inputs__input-heading">Password</p>
+                        <input class="login-form__elements__inputs__input-input" placeholder="Password" name="password"
+                            type="password">
+                    </div>
                 </div>
-                <div class="login-form__elements__inputs__input">
-                    <p class="login-form__elements__inputs__input-heading">Password</p>
-                    <input class="login-form__elements__inputs__input-input" placeholder="Password" name="password" type="password">
+
+                <div class="login-form__elements__checkbox-field">
+                    <input class="login-form__elements__checkbox-field-box" type="checkbox" id="scales" name="scales" />
+                    <label class="login-form__elements__checkbox-field-text" for="scales">Show Password</label>
+                </div>
+
+                <div class="login-form__elements__buttons">
+                    <button class="login-form__elements__buttons-button">Sign In</button>
                 </div>
             </div>
 
-            <div class="login-form__elements__checkbox-field">
-                <input class="login-form__elements__checkbox-field-box" type="checkbox" id="scales" name="scales" />
-                <label class="login-form__elements__checkbox-field-text" for="scales">Show Password</label>
+            <div class="login-form__links">
+                <a class="login-form__links-text" href="#">Forgot Username / Password?</a>
+                <a class="login-form__links-text" href="#">Don't have an account? Sign up</a>
             </div>
-
-            <div class="login-form__elements__buttons">
-                <button class="login-form__elements__buttons-button">Sign In</button>
-            </div>
-        </div>
-
-        <div class="login-form__links">
-            <a class="login-form__links-text" href="#">Forgot Username / Password?</a>
-            <a class="login-form__links-text" href="#">Don't have an account? Sign up</a>
-        </div>
-    </form>
+        </form>
+    </div>
 </body>
 
 </html>

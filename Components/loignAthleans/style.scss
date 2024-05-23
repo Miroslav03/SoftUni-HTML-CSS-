@@ -8,12 +8,22 @@ html {
     font-size: 62.5%;
 }
 
+*:focus {
+    outline: none;
+    box-shadow: 0 0 0 1.5px rgba(#475f93, .8);
+}
+
 body {
     background-color: #eceef3;
+   
+}
+
+.login-container{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+
 }
 
 
@@ -84,9 +94,8 @@ body {
             display: flex;
             align-items: center;
             gap: .5rem;
-
+            
             &-box {
-                border: solid 2px #475f93;
                 width: 9px;
                 height: 9px;
             }
@@ -142,7 +151,7 @@ body {
 
 
             &:hover {
-                transform: scale(1.04);
+                transform: scale(1.03);
             }
 
             &:active {
