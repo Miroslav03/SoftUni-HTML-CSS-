@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; }
+
+.card-container {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(./danielle-cerullo-CQfNt66ttZM-unsplash.jpg);
+  background-size: cover;
+  display: inline-block;
+  border-radius: 0.5rem;
+  width: 23rem;
+  padding-top: 1.5rem;
+  padding-right: 1.15rem;
+  padding-bottom: 0.6rem;
+  padding-left: 1.15rem;
+  position: relative; }
+  .card-container__add-btn {
+    position: absolute;
+    background-color: white;
+    top: 74%;
+    left: 90%;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.4s;
+    transform: scale(1.3); }
+    .card-container__add-btn:hover {
+      transform: scale(1.6); }
+  .card-container__workout-name {
+    margin-top: 0;
+    margin-bottom: -1.1rem;
+    font-weight: 700;
+    color: #ffffff;
+    -webkit-text-stroke: 0.2px black;
+    font-size: 1.4rem; }
+  .card-container__workout-trainer {
+    font-weight: 700;
+    color: #ffffff;
+    -webkit-text-stroke: 0.2px black;
+    font-size: 1.1rem;
+    margin-bottom: -0.4rem; }
+  .card-container__difficulty {
+    display: flex;
+    margin-bottom: -0.2rem;
+    gap: 1rem;
+    align-items: center; }
+    .card-container__difficulty-text {
+      font-size: 0.8rem;
+      color: #ffffff;
+      -webkit-text-stroke: 0.2px black;
+      font-weight: 700; }
+  .card-container__tags {
+    display: flex;
+    gap: 0.5rem; }
+    .card-container__tags-tag {
+      background-color: rgba(71, 95, 147, 0.646);
+      color: #fff;
+      padding: 0.08rem 0.8rem;
+      font-size: 1.2rem;
+      border-radius: 0.2rem; }

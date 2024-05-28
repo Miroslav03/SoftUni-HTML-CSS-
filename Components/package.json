@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass profileAthleans/style.scss profileAthleans/style.css"
+    "sass": "node-sass cardAthleans/style.scss cardAthleans/style.css"
   },
   "keywords": [],
   "author": "",
