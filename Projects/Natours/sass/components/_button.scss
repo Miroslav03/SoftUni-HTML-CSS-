@@ -1,5 +1,5 @@
 .btn {
-
+    &,
     &:link,
     &:visited {
         text-decoration: none;
@@ -23,7 +23,9 @@
         }
     }
 
-    &:active {
+    &:active,
+    &:focus {
+        outline: none;
         transform: translateY(-1px);
         box-shadow: 0 .5rem 1rem rgba($color-black, 0.199);
     }
@@ -41,6 +43,7 @@
         background-color: $main-color;
         color: $color-white;
         box-shadow: 0 1rem 2rem rgba($color: $color-black, $alpha: 0.1);
+        border: none;
 
         &::after {
             background-color: $main-color;
@@ -63,11 +66,9 @@
     &--animated {
         animation: moveFromBottom 1s ease-in;
     }
-
 }
 
 .btn-text {
-
     &:link,
     &:visited {
         font-size: $default-font-size;
