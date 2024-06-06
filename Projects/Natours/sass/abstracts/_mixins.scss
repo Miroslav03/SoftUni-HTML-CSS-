@@ -7,28 +7,52 @@
 }
 
 @mixin respond($breakpoint) {
-    @if $breakpoint ==phone {
+    @if $breakpoint == phone {
         @media (max-width:37.5em) {
             @content
         }
     }
 
-    @if $breakpoint ==tab-port {
+    @if $breakpoint == tab-port {
         @media (max-width:56.25em) {
             @content
         }
     }
 
-    @if $breakpoint ==tab-land {
+    @if $breakpoint == tab-land {
         @media (max-width:75em) {
             @content
         }
     }
 
-    @if $breakpoint ==big-desktop {
+    @if $breakpoint == big-desktop {
         @media (max-width:112.5em) {
             @content
         }
     }
+}
 
+$breakpoints: (
+  Phone: 37.5rem,
+  Tab-Port: 56.25rem,
+  Tab-Land: 75rem,
+  Big-Desktop: 112.5rem
+);
+
+@mixin espond($breakpoint) {
+    $query: null;
+
+    // Check if the provided breakpoint exists in the map
+    @if map-has-key($breakpoints, $breakpoint) {
+        $query: map-get($breakpoints, $breakpoint);
+    }
+
+    // If not, assume it's a custom breakpoint with direct size value
+    @else {
+        $query: $breakpoint;
+    }
+
+    @media (max-width: $query) {
+        @content;
+    }
 }
