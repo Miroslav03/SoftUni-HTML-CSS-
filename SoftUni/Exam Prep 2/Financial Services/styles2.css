@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.img-container{
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.card-containers {
+   display: flex;
+   gap: 1rem;
+}
+
+.card{
+   flex: 1 1 30%;
+}

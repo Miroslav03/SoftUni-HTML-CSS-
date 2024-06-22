@@ -1,0 +1,174 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 62.5%;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.red-nav {
+    background-color: red;
+    height: 3.3rem;
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.red-nav p {
+    color: white;
+}
+
+.img-section {
+    background-image: url(./image/fitness-main.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 35rem;
+}
+
+.hero-nav {
+    display: flex;
+    color: white;
+    gap: 5rem;
+    padding: 2rem 5.2rem 0 0;
+    justify-content: end;
+    font-weight: inherit;
+}
+
+.img-section h1 {
+    margin-top: 10rem;
+    text-align: center;
+    letter-spacing: 0.8rem;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+}
+
+.hero-info {
+    color: white;
+    text-align: center;
+    padding-left: 45rem;
+    padding-right: 45rem;
+    margin-bottom: 2rem;
+}
+
+.hero-btn-container {
+    text-align: center;
+}
+
+.hero-btn {
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+.welcome-section {
+    height: 25rem;
+    padding: 0 10rem 0 10rem;
+}
+
+.second-heading {
+    text-align: center;
+    padding-top: 2rem;
+    font-family: inherit;
+    font-family: 'PT+Serif', sans-serif;
+    font-size: 1.8rem;
+}
+
+.line {
+    color: red;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 2px;
+    margin-bottom: 2rem;
+}
+
+.article-container {
+    display: flex;
+    gap: 2rem;
+}
+
+
+.article-icon {
+    text-align: center;
+}
+
+.article-icon span {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.article-heading {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: red;
+}
+
+.article-information {
+    text-align: center;
+    padding: 0 6rem 0 6rem;
+}
+
+.coaches-section {
+    height: 38rem;
+    background-color: #efefef;
+    padding: 0 6rem 0 6rem;
+}
+
+.coaches-cards {
+    display: flex;
+}
+
+.img-container{
+    text-align: center;
+}
+
+.img-container img{
+    height: 14rem;
+    width: auto;
+    border-radius: 8px;
+}
+
+.coach-name{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.coach-heading{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: red;
+}
+
+.coach-information{
+    text-align: center;
+    padding: 0 7rem 0  7rem;
+    font-size: 1.2rem;
+    color: #b5adad;
+}
+
+footer{
+    height: 2.5rem;
+    background-color: red;
+}
+
+footer p {
+   text-align: center;
+   padding: 0.7rem;
+}
