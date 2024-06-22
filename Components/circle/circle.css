@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.circle{
+    text-align: center;
+}
+
+.circle-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: .6rem solid #306282;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.circle-text{
+    margin-top: 1rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
