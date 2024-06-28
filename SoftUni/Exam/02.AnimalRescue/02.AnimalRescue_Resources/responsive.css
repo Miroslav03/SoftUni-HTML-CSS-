@@ -1,0 +1,76 @@
+@media (max-width:600px) {
+
+    header {
+        padding-top: 4.5rem;
+    }
+
+    header nav{
+        justify-content: center;
+        width: 100%;
+    }
+
+    nav ul {
+        font-size: 11px;
+    }
+
+    nav img{
+        display: none;
+    }
+
+    .header-title {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .header-title h1 {
+        font-size: 35px;
+    }
+
+    .our-dogs-wrapper ul li img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .our-dogs-wrapper ul li p {
+        font-size: 12px;
+    }
+
+    .our-dogs-wrapper ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .our-dogs-wrapper h3 {
+        font-size: 19px;
+    }
+
+    .our-dogs-wrapper p {
+        font-size: 14px;
+    }
+
+    .helpNeed ul {
+        flex-direction: column;
+    }
+
+    .helpNeed ul li img{
+        width: 5rem;
+        height: auto;
+    }
+
+    .helpNeed ul li h4{
+        font-size: 16px;
+    }
+
+    .contact{
+        font-size: 12px;
+    }
+
+    .contact h3 {
+        font-size: 17px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
